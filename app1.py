@@ -26,7 +26,7 @@ def user_input_features():
     Population=st.sidebar.slider('Population',float,X.Population.min(),float,X.Population.max(),float,X.Population.mean()) 
     AveOccup=st.sidebar.slider('AveOccup',float,X.AveOccup.min(),float,X.AveOccup.max(),float,X.AveOccup.mean())
     Latitude=st.sidebar.slider('Latitude',float,X.Latitude.min(),float,X.Latitude.max(),float,X.Latitude.mean()) 
-    Longitude=st.sidebar.slider('Longitude',float,X.MedInc.min(),float,X.Longitude.max(),float,float,X.Longitude.mean())
+    Longitude=st.sidebar.slider('Longitude',float,X.MedInc.min(),float,X.Longitude.max(),float,X.Longitude.mean())
     #preparing the output of the function
     data={
         'MedInc':MedInc,
